@@ -1,0 +1,156 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+#color{
+    color:white;
+    background-color: rgb(38, 170, 190);
+}
+#backgroundcolor{
+    color:red;
+    background-color: black;
+}
+#backgroundelements h1{
+              color:orange;
+              background-color: yellow;
+}
+#backgroundelements p{
+    background-color:pink;
+    color: red;
+}
+#backgroundelements div{
+    background-image: url(background.png);
+}
+#border{
+    border-style: dotted;
+    border-width: 5px;
+    
+}
+#border p{
+    border-style: double;
+    border-width:7px;
+    border-color:red;
+}
+.borderwidth{
+    border-style: groove;
+    border-width: 10px 5px;
+    border-color: red green blue yellow;
+}
+.borderwidth p{
+  border-style: solid;
+  border-width: thin;
+}
+#bordershorthand{
+    border: 10px solid brown;
+}
+#borderradius{
+    border: solid 5px red;
+    border-radius: 10px;
+}
+#margin{
+    margin: 10px 40px;
+}
+#margin p{
+    width: 300px;
+    border: 3px solid red;
+    margin: auto;
+}
+#padding{
+    border: 3px solid red;
+    padding:20px;
+}
+#heightwidth{
+    background-color: black;
+    color:orange;
+    padding:10px;
+    margin:20px;
+    /*width:50%;*/
+    height:100px;
+    max-width: 1000px;
+}
+#text {
+    margin:10px;
+    padding:10px;
+    text-align: left;
+    
+}
+#justify{
+    width:300px;
+    border : 2px solid black;
+    margin:15px;
+    padding:5px;
+    text-align: justify;
+    
+}
+#verticlealign img {
+    vertical-align: text-top;
+}
+#textdecoration{
+    margin:10px;
+    padding:20px;
+}
+.a{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+.b{
+    padding:5px;
+    text-decoration-line: overline underline ;
+    text-decoration-color: red;
+    text-decoration-style: double;
+}
+.c{
+    text-decoration: underline red solid 2px;
+}
+#link{
+    margin:20px;
+    font-size:20px;
+    
+}
+#textdecoration a{
+    
+    text-decoration: none;
+    color:blue;
+    text-align: center;
+    font-style: italic;
+    
+
+}
+#textdecoration a:visited{
+    color:green;
+}
+#textdecoration a:hover{
+    color:black;
+}
+#textdecoration a:active{
+    color:brown;
+}
+#textspacing{
+    margin:20px;
+    padding:10px;
+    width: 80%;
+    border: 20px hidden;
+}
+#textspacing p{
+    text-indent:50px;
+    letter-spacing:0px;
+    line-height: 1;
+    word-spacing: 5px;
+}
+#textshadoweffect{
+    color:black;
+    font-size: 30px;
+    margin:10px;
+    text-shadow: 2px 2px  5px red;
+}
+#font{
+    /*text-transform: uppercase;*/
+    font-family: 'Brush Script MT', cursive;
+    font-size:50px;
+    font-style: italic;
+    font-weight:bold;
+    font-variant:small-caps;
+}
+#font p{
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}

@@ -1,0 +1,64 @@
+#blocklevel{
+    border: 5px solid green;
+}
+#inline span{
+    border: 2px solid green;
+}
+#inline li{
+    display: inline;
+}
+#inline a{
+    display :block;
+}
+#static{
+    position:static;
+    border: 3px solid #73ad21;
+}
+#relative{
+    position: relative;
+    left:30px;
+    border: 3px solid #73ad21;
+}
+#zindex img{
+    position:absolute;
+    left:0px;
+    z-index:-1;
+}
+#visible{
+    margin-top:300px;
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: visible;
+}
+#hidden{
+    margin-top:80px;
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow:hidden;
+}
+#scroll{
+    margin-top:80px;
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    overflow:scroll; 
+}
+#auto{
+    margin-top:80px;
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    overflow:auto;
+}
+#float{
+    border: 1px solid black;
+    width:90%;
+    height:200px;
+}
+#float img{
+    width:30%;
+    height: 80%;
+    float:right;
+}
